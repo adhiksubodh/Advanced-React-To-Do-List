@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/adhiksubodh/Advanced-React-To-Do-List.git/static/css/main.e6c13ad2.css",
+    "main.js": "/adhiksubodh/Advanced-React-To-Do-List.git/static/js/main.5853b2be.js",
+    "static/js/453.deb38a00.chunk.js": "/adhiksubodh/Advanced-React-To-Do-List.git/static/js/453.deb38a00.chunk.js",
+    "index.html": "/adhiksubodh/Advanced-React-To-Do-List.git/index.html",
+    "main.e6c13ad2.css.map": "/adhiksubodh/Advanced-React-To-Do-List.git/static/css/main.e6c13ad2.css.map",
+    "main.5853b2be.js.map": "/adhiksubodh/Advanced-React-To-Do-List.git/static/js/main.5853b2be.js.map",
+    "453.deb38a00.chunk.js.map": "/adhiksubodh/Advanced-React-To-Do-List.git/static/js/453.deb38a00.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.5853b2be.js"
+  ]
+}
