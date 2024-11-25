@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import TaskItem from './TaskItem';
 import TaskTimer from './TaskTimer';
 
-function TaskList({ tasks, addTask, deleteTask }) {
+function TaskList({ tasks, addTask, deleteTask, updateTaskTime}) {
     const [taskTitle, setTaskTitle] = useState('');
 
     const handleAddTask = (e) => {
@@ -28,15 +28,7 @@ function TaskList({ tasks, addTask, deleteTask }) {
         setTaskTitle('');
     };
 
-    // Function to update time spent on a task
-    const updateTimeSpent = (taskId, timeSpent) => {
-        // Update the task's timeSpent value
-        const updatedTasks = tasks.map((task) =>
-            task.id === taskId ? { ...task, timeSpent } : task
-        );
-        // Use addTask to set the updated tasks list
-        addTask(updatedTasks);  // **Updated this call**
-    };
+
 
     return (
         <div>
@@ -48,18 +40,22 @@ function TaskList({ tasks, addTask, deleteTask }) {
                     placeholder="Enter task title"
                     value={taskTitle}
                     onChange={(e) => setTaskTitle(e.target.value)}
+                    required
                 />
                 <button type="submit">Add Task</button>
             </form>
-
-            {tasks.map(task => (
+            
+            {tasks && tasks.length > 0 ? (
+             tasks.map(task => (
                 <div key={task.id}>
-                    <TaskItem key={task.id} task={task} deleteTask={deleteTask} />
-                    <TaskTimer task={task} updateTimeSpent={updateTimeSpent} />
+                    <TaskItem task={task} deleteTask={deleteTask} />
+                    <TaskTimer task={task} updateTimeSpent={updateTaskTime} />
                 </div>
-            ))}
+            ) )
+            ) : ( 
+                <p>No tasks available. </p>
+            )}
         </div>
     );
-}
-
+            }
 export default TaskList;
