@@ -25,7 +25,7 @@ function TaskTimer({ task , updateTimeSpent}){
             return () => clearInterval(id); // cleanup interval on component unmount
         } 
         
-    },[isRunning,task.id, updateTimeSpent]);
+    },[isRunning,task.id, updateTimeSpent ,INITIAL_TIME]);
     
     //start/stop the timer
     const toggleTimer = () => {
