@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Advanced-React-To-Do-List.git/static/css/main.e6c13ad2.css",
-    "main.js": "/Advanced-React-To-Do-List.git/static/js/main.7929c09b.js",
-    "static/js/453.deb38a00.chunk.js": "/Advanced-React-To-Do-List.git/static/js/453.deb38a00.chunk.js",
-    "index.html": "/Advanced-React-To-Do-List.git/index.html",
-    "main.e6c13ad2.css.map": "/Advanced-React-To-Do-List.git/static/css/main.e6c13ad2.css.map",
-    "main.7929c09b.js.map": "/Advanced-React-To-Do-List.git/static/js/main.7929c09b.js.map",
-    "453.deb38a00.chunk.js.map": "/Advanced-React-To-Do-List.git/static/js/453.deb38a00.chunk.js.map"
+    "main.css": "/Advanced-React-To-Do-List/static/css/main.e6c13ad2.css",
+    "main.js": "/Advanced-React-To-Do-List/static/js/main.85ba3b67.js",
+    "static/js/453.deb38a00.chunk.js": "/Advanced-React-To-Do-List/static/js/453.deb38a00.chunk.js",
+    "index.html": "/Advanced-React-To-Do-List/index.html",
+    "main.e6c13ad2.css.map": "/Advanced-React-To-Do-List/static/css/main.e6c13ad2.css.map",
+    "main.85ba3b67.js.map": "/Advanced-React-To-Do-List/static/js/main.85ba3b67.js.map",
+    "453.deb38a00.chunk.js.map": "/Advanced-React-To-Do-List/static/js/453.deb38a00.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.7929c09b.js"
+    "static/js/main.85ba3b67.js"
   ]
 }
